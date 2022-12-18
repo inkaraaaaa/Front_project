@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
+body{
+    display: flex;
+}
+.container {
+    height: 60vw;
+    padding: 30px;
+    background: #182b3c;
+    box-shadow: 0 43px 25px rgba(0, 0, 0, 0.4);
+    
+}
+.container h2 {
+    color: #fff;
+    text-align: center;
+}
+.container a{
+    text-decoration: none;
+    color: #fff;
+}
+.container ul {
+list-style: none;
+cursor: pointer;
+border-top: 1px solid #fff;
+}
+.container li {
+    margin: 10px 0 0 20px;
+}
+.container p{
+    margin: 0 0 0 30px;
+    padding: 5px 0 0 0;    
+}
+.container li::before{
+    content: '';
+    position: absolute;
+    padding-right: 12px;
+    width: 25px;
+    height: 25px;   
+    transition: background 0.5s, width 0.5s;
+    border-radius: 34px;
+    transition-delay: 0.5s, 0s;
+    border: 2px solid #39f4;
+    box-sizing: border-box;
+}
+.container li:hover::before{
+    width: 100%;
+    background: #1f7da8;
+    transition-delay: 0s, 0.1s;
+}
+.container ul, li, p{
+    position: relative;
+    color: #fff
+}
+.sport-club{
+    display: flex;
+    padding: 1%;
+}
+.clubs p{
+    font-size: 15px;]
+    float:left;
+    text-align: left;
+    color: black;
+    padding-left: 1%;
+}
+img{
+    border-radius: 50%;
+    width: 100px;
+    float: left;
+}
