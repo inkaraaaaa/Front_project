@@ -1,0 +1,18 @@
+body{
+width: 100%;
+}
+.footer{
+    height:30%;
+    background-color:#F64E2B;
+    padding-left: 2%;
+
+}
+.about{
+    padding-right: 75%;
+    padding-bottom:5px;
+}
+i{
+    color:white;
+    height:25px;
+    width:25px;
+}
