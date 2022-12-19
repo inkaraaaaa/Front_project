@@ -4,14 +4,14 @@
    padding-left: 20px;
  }
  .basy{
-   background-color: rgba(24, 21, 21, 0.815);
+   background-color: rgb(2, 24, 47);#;
    text-align: center;
    color:white;
    font-family: 'Aladin';font-size: 22px;
    padding:10px;
  }
  .mesto{
-   color:rgba(24, 21, 21, 0.815);
+   color:white ;
    font-family: 'Actor';
    font-size: 16px;
    float:center;
@@ -40,7 +40,7 @@ font-size:28px;
 }
 
 li a:hover {
-background-color: rgba(24, 21, 21, 0.815);
+background-color: rgb(2, 24, 47);;
 }
 .nav{
 margin-right:140px;
@@ -52,34 +52,16 @@ padding-right:40px;
 margin-top:-50px;
 }
 .dom{
-background-color:rgba(24, 21, 21, 0.815);
+background-color:rgb(2, 24, 47);;
 margin:0px 140px 0px 140px;
 padding:30px 20px 30px 20px;
 
 }
-.back{
-background-image: url(main.jpg);
-height:250px;
-background-repeat:no-repeat;
-background-size:cover;
-background-position-y:-180px;
-padding:60px 0px 20px 20px;
-}
-.back h1{
-font-size:50px;
-letter-spacing:3px;
-word-spacing:6px;
-color:white;
-text-align:center;
--webkit-text-stroke: 1px black;}
-.back h3{
-color:white;
-text-align:center;
-padding:30px;
-}
+
+
 
 .active {
-background-color:rgba(24, 21, 21, 0.815);
+background-color:rgb(2, 24, 47);;
 color: white;
 border: none;
 cursor: pointer;
@@ -91,14 +73,14 @@ cursor: pointer;
 display: none;
 position: absolute;
 background-color: #f9f9f9;
-min-width: 160px;
+min-width: 140px;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 z-index: 1;
 }
 
 .dropdown-content a {
 color: black;
-padding: 12px 16px;
+padding: 5px 16px;
 text-decoration: none;
 display: block;
 font-size: 15px;;
@@ -123,34 +105,41 @@ padding:10px 26px 10px 26px;
 }
 .tot{
     float: right;
-    margin-top: -480px;
-   padding:20px;
-margin-right:140px;    }
+    margin-top: -460px;
+   padding:0px;
+margin-right:165px; 
+border-style:1px solid #ff5100; 
+animation: glows 2s ease-in-out infinite alternate;   }
 .tot1{
     float: right;
-    margin-top: -480px;
-   padding:20px;
-margin-right:30px;    }
+    margin-top: -460px;
+   padding:0px;
+margin-right:60px;
+animation: glows 2s ease-in-out infinite alternate;    }
 .tot2{
     float: right;
-    margin-top: -370px;
-   padding:20px;
-margin-right:140px;    }
+    margin-top: -350px;
+   padding:0px;
+margin-right:165px;  
+animation: glows 2s ease-in-out infinite alternate;   }
 .tot3{
     float: right;
-    margin-top: -370px;
-   padding:20px;
-margin-right:30px;    }
+    margin-top: -350px;
+   padding:0px;
+margin-right:50px; 
+animation: glows 2s ease-in-out infinite alternate;    }
 .tot4{
     float: right;
-    margin-top: -260px;
-   padding:20px;
-margin-right:140px;    }
+    margin-top: -240px;
+   padding:0px;
+margin-right:165px;  
+animation: glows 2s ease-in-out infinite alternate;   }
 .tot5{
     float: right;
-    margin-top: -260px;
-   padding:20px;
-margin-right:30px;    }
+    margin-top: -240px;
+   padding:0px;
+margin-right:50px;  
+animation: glows 2s ease-in-out infinite alternate;   }
 .est{
 float: left;
 font-size: 20px;
@@ -168,16 +157,16 @@ padding: 3px;
 margin:100px 100px 40px 30px;
 color:#212121;}
 .word h2{
-color:#1f7da8;
-font-size:27px;
+color:#ff5100;
+font-size:33px;
 margin-left:40px;}
 #hrv{
 margin:-20px 0px 0px 40px;
 width:240px;
-color:black;
+color:#ff5100;;
 float:left;}
-.hack{
-background-image: url("hack.jpg");
+#hack{
+background-image:url("hack.png");
 height: 490px;
 width: 400px;
 background-size: cover;
@@ -186,14 +175,18 @@ color: white;
 font-size: 43px;
 text-align: center;
 padding-top: 50px;
+opacity: 0.7;
+
+
 }
+#hack:hover {opacity: 1;}
 .so{
 font-size: 15px;
-background-color: #212121;
+background-color: rgb(2, 24, 47);
 margin-top: 300px;
 }
 
-.tennis{
+#tennis{
 background-image: url("tennis.png");
 height: 200px;
 width: 600px;
@@ -205,16 +198,19 @@ font-size: 43px;
 text-align: center;
 padding-top: 50px;
 background-position-y:250px ;
+opacity: 0.7;
+
 }
+#tennis:hover {opacity: 1;}
 .sol{
 font-size: 15px;
-background-color: #212121;
-margin-top:120px;
+background-color: rgb(2, 24, 47);
+margin-top:95px;
 }
 
 
-.hack2{
-background-image: url("hacksolo.jpg");
+#hack2{
+background-image: url("hacksolo.png");
 height: 200px;
 width: 600px;
 background-size: cover;
@@ -225,12 +221,11 @@ font-size: 43px;
 text-align: center;
 padding-top: 50px;
 background-position-y:250px ;
+opacity: 0.7;
+
 }
-.sol{
-font-size: 15px;
-background-color: #212121;
-margin-top:120px;
-}
+#hack2:hover {opacity: 1;}
+
 .ask{
 background-color: rgba(24, 21, 21, 0.815);
 margin-top: 60px;
@@ -251,7 +246,7 @@ font-size:20px;
 
 .ex {
     
-    color: #4db1bc;
+    color: white;
     margin: 0;
     display: grid;
     grid-template-columns: 1fr;
@@ -259,12 +254,12 @@ font-size:20px;
     align-items: center;
     justify-items: center;}
     .qor {
-      width: 900px;
-      height: 300px;
+      width: 1197px;
+      height: 400px;
       object-fit: cover;
       grid-column: 1;
       grid-row: 1;
-      opacity: .7;
+      
       z-index: 0;
     }
    h1 {
@@ -274,27 +269,40 @@ font-size:20px;
       grid-row: 1;
       z-index: 1;
       font-family: 'Teko', sans-serif;
-      font-size: 80px;
+      font-size: 55px;
       text-transform: uppercase;
       animation: glow 2s ease-in-out infinite alternate;
       text-align: center;
     }
-    a {
+    .quad{
       font-family: 'Teko', sans-serif;
-      color: #4db1bc;
+      color: white;
       grid-column: 1;
       grid-row: 1;
       align-self: end;
       justify-self: center;
       padding-bottom: 1rem;
+    
     }
+    body{
+        background-color:black;
+        margin:auto;
+        color:white;
+      }
     
     @keyframes glow {
       from {
-        text-shadow: 0 0 20px #2d9da9;
+        text-shadow: 0 0 20px  #ff5100;
       }
       to {
-        text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+        text-shadow: 0 0 30px #2d9da9, 0 0 10px #4dbbc7;
       }
     }
-  
+    @keyframes glows {
+        from {
+          box-shadow: 0 0 20px  #ff5100;
+        }
+        to {
+          box-shadow: 0 0 30px white, 0 0 10px #ff5100;
+        }
+      }
