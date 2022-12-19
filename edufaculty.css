@@ -51,13 +51,6 @@ float:right;
 padding-right:40px;
 margin-top:-50px;
 }
-.dom{
-background-color:rgb(2, 24, 47);;
-margin:0px 140px 0px 140px;
-padding:30px 20px 30px 20px;
-
-}
-
 
 
 .active {
@@ -92,157 +85,6 @@ font-size: 15px;;
 display: block;
 }
 
-.total{
-font-size: 40px;
-float: right;
-margin-top: -545px;
-margin-right: 50px;
-background-color:#1f7da8 ;
-padding:10px 26px 10px 26px;
-
-
-
-}
-.tot{
-    float: right;
-    margin-top: -460px;
-   padding:0px;
-margin-right:165px; 
-border-style:1px solid #ff5100; 
-animation: glows 2s ease-in-out infinite alternate;   }
-.tot1{
-    float: right;
-    margin-top: -460px;
-   padding:0px;
-margin-right:60px;
-animation: glows 2s ease-in-out infinite alternate;    }
-.tot2{
-    float: right;
-    margin-top: -350px;
-   padding:0px;
-margin-right:165px;  
-animation: glows 2s ease-in-out infinite alternate;   }
-.tot3{
-    float: right;
-    margin-top: -350px;
-   padding:0px;
-margin-right:50px; 
-animation: glows 2s ease-in-out infinite alternate;    }
-.tot4{
-    float: right;
-    margin-top: -240px;
-   padding:0px;
-margin-right:165px;  
-animation: glows 2s ease-in-out infinite alternate;   }
-.tot5{
-    float: right;
-    margin-top: -240px;
-   padding:0px;
-margin-right:50px;  
-animation: glows 2s ease-in-out infinite alternate;   }
-.est{
-float: left;
-font-size: 20px;
-margin-left:50px;
-margin-top: 50px;
-}
-.inst{
-float: left;
-margin-top:80px; 
-margin-left:-80px;
-font-size: 20px;
-padding: 3px;
-}
-.word{
-margin:100px 100px 40px 30px;
-color:#212121;}
-.word h2{
-color:#ff5100;
-font-size:33px;
-margin-left:40px;}
-#hrv{
-margin:-20px 0px 0px 40px;
-width:240px;
-color:#ff5100;;
-float:left;}
-#hack{
-background-image:url("hack.png");
-height: 490px;
-width: 400px;
-background-size: cover;
-margin-left: 70px;
-color: white;
-font-size: 43px;
-text-align: center;
-padding-top: 50px;
-opacity: 0.7;
-
-
-}
-#hack:hover {opacity: 1;}
-.so{
-font-size: 15px;
-background-color: rgb(2, 24, 47);
-margin-top: 300px;
-}
-
-#tennis{
-background-image: url("tennis.png");
-height: 200px;
-width: 600px;
-background-size: cover;
-margin-top: -540px;
-margin-left: 490px;
-color: white;
-font-size: 43px;
-text-align: center;
-padding-top: 50px;
-background-position-y:250px ;
-opacity: 0.7;
-
-}
-#tennis:hover {opacity: 1;}
-.sol{
-font-size: 15px;
-background-color: rgb(2, 24, 47);
-margin-top:95px;
-}
-
-
-#hack2{
-background-image: url("hacksolo.png");
-height: 200px;
-width: 600px;
-background-size: cover;
-margin-top: 40px;
-margin-left: 490px;
-color: white;
-font-size: 43px;
-text-align: center;
-padding-top: 50px;
-background-position-y:250px ;
-opacity: 0.7;
-
-}
-#hack2:hover {opacity: 1;}
-
-.ask{
-background-color: rgba(24, 21, 21, 0.815);
-margin-top: 60px;
-padding:10px 100px 10px 600px;
-word-spacing: 4px;
-letter-spacing: 2px;
-color:white;
-font-size: 30px;
-
-}
-.idea{
-color:black;
-margin:20px;
-font-size:20px;
-}   
-
-
 
 .ex {
     
@@ -259,7 +101,7 @@ font-size:20px;
       object-fit: cover;
       grid-column: 1;
       grid-row: 1;
-      
+      background-position-y: 180px;
       z-index: 0;
     }
    h1 {
@@ -289,7 +131,21 @@ font-size:20px;
         margin:auto;
         color:white;
       }
-    
+    .ortasy{
+        margin:20px 30px 10px 30px
+    }
+
+
+
+
+
+
+
+
+
+
+
+
     @keyframes glow {
       from {
         text-shadow: 0 0 20px  #ff5100;
