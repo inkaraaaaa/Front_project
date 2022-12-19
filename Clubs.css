@@ -23,26 +23,11 @@ body {
     width: 60px;
     height: 60px;
     margin: 40% 0 0 92%;
-    transition: 0.5s width;
 }
 .icon:hover{
-    width: 150px
 
 }
-.enroll-course{
-    color: #ff5100;
-    width: 16%px;
-    position: absolute;
-    position: fixed;
-    z-index: 10;
-    margin: 41% 0 0 80%;
-    font-family: Tahoma;
-    font-size: 0px;
-    font-weight: bold;
-    
-}
-.enroll-course:hover{
-}
+
 .container {    
     position: fixed; 
     width: 20%;
@@ -50,7 +35,6 @@ body {
     padding: 5px 0 0 35px;
     background: rgb(2, 24, 47);
     box-shadow: 0 43px 25px rgba(0, 0, 0, 0.4);
-
 }
 
 .container h2 {
@@ -137,4 +121,53 @@ body {
     font-size: 40px;
     color: #ff5100;
     font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+@media(max-width:1150px){
+    .container{
+        position: relative;
+        width: 250px;
+        height: 2500px;
+        padding: 0 ;
+    }
+    .class-club{
+        width: 100%;
+        margin: 0;
+    }
+    .clubs img{
+        width: 0px;
+        height: 0px;
+    }
+    .clubs h1 {
+        font-size: 20px;
+    }
+    .clubs p{
+        font-size: 14px;
+    }
+    .container ul{
+        width: 200px;
+        padding: 0 0 0 5%;
+        line-height: 0.5;
+    }
+    .container p{
+        font-size: 14px;
+        padding: 4px 0 0 0;
+    }
+    .class-club{
+        margin-left: 0;
+    }
+    .container li::before{
+        width: 15px;
+        height: 15px;
+        border-radius: 30px;
+    }
+    .icon{
+        width: 35px;
+        height: 35px;
+        margin-top: 560px;
+    }
+}
+@media (max-width: 670px){
+.icon{
+    margin: 570px 0 0 90%;
+}
 }
