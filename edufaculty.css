@@ -4,7 +4,7 @@
    padding-left: 20px;
  }
  .basy{
-   background-color: rgb(2, 24, 47);#;
+   background-color: rgb(2, 24, 47);
    text-align: center;
    color:white;
    font-family: 'Aladin';font-size: 22px;
@@ -132,17 +132,98 @@ display: block;
         color:white;
       }
     .ortasy{
-        margin:20px 30px 10px 30px
+        margin:20px 140px 20px 140px;
+        display:flex;
     }
+    #suret{
+        
+        border-radius:50%;
+        height: 230px;
+        width: 230px;
+        border-style: 3px white solid;
+        
+    }
+    .ekeu{
+        animation: glows 2s ease-in-out infinite alternate;
+        padding: 20px 55px 20px 110px;
+        
+    }
+    .word{
+      margin:100px 100px 20px 30px;
+      color:#212121;
+    padding: 50px;
+  padding-top: 8px;}
+      .word h2{
+      color:#1f7da8;
+      font-size:33px;
+      margin-left:40px;}
+      #hrv{
+      margin:-20px 0px 0px 40px;
+      width:240px;
+    
+      float:left;}
 
-
-
-
-
-
-
-
-
+          
+        
+        #my {
+        
+          background-color: #ff5100;
+        color:white;
+        font-size: 18px;
+          margin-top: -30px;
+          margin-left: 170px;
+          margin-right: 1000px;
+          display:none;
+        }
+        #my1 {
+        
+          background-color: #ff5100;
+        color:white;
+        font-size: 18px;
+          margin-top: -30px;
+          margin-left: 600px;
+          margin-right: 670px;
+          display:none;
+        }
+        #my2 {
+          background-color: #ff5100;
+        color:white;
+        font-size: 18px;
+          margin-top: -30px;
+          margin-left: 960px;
+          margin-right: 300px;
+          display:none;
+        }
+        
+        #my3{
+        
+          background-color: #ff5100;
+        color:white;
+        font-size: 18px;
+          margin-top: -30px;
+          margin-left: 170px;
+          margin-right: 1000px;
+          display:none;
+        }
+        #my4 {
+        
+          background-color: #ff5100;
+        color:white;
+        font-size: 18px;
+          margin-top: -30px;
+          margin-left: 600px;
+          margin-right: 670px;
+          display:none;
+        }
+        #my5 {
+          background-color: #ff5100;
+        color:white;
+        font-size: 18px;
+          margin-top: -30px;
+          margin-left: 960px;
+          margin-right: 300px;
+          display:none;
+        }
 
 
 
@@ -156,9 +237,37 @@ display: block;
     }
     @keyframes glows {
         from {
-          box-shadow: 0 0 20px  #ff5100;
+          box-shadow: 0 0 5px rgb(2, 24, 47);
         }
         to {
-          box-shadow: 0 0 30px white, 0 0 10px #ff5100;
+          box-shadow: 0 0 5px 5px  white, 0 0 5px #4dbbc7;
         }
+      }
+
+      .ast{
+        background-color:#1f7da8;
+        color:white;
+        font-size: 20px;
+        margin-top: 120px;
+      
+      }
+
+
+      .one{
+        float: left;
+       
+      }
+      .two{
+        float: left;
+       
+      }
+      .three{
+        float: right;
+   }
+       
+      .four{
+        float: right;
+        margin: 0px;
+       
+       
       }
