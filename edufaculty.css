@@ -267,7 +267,244 @@ display: block;
        
       .four{
         float: right;
-        margin: 0px;
-       
-       
+        margin: 0px; 
       }
+      @media(max-width:1150px){
+        .logo{
+          display: none;
+       }
+      
+       .mesto{
+         display:none;
+       }
+       ul {
+      padding-right:5px;
+      margin-bottom: 0px;;
+
+      }
+      li {
+      float: left;
+      padding-right:5px;
+      }
+      
+      
+      li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 5px 4px;
+      text-decoration: none;
+      font-size:13px;
+      }
+      
+   
+      .nav{
+      margin-right:80px;
+      margin-left:80px;}
+      
+      .logolar{
+     display:none;
+      }
+    
+      .dropdown-content a {
+        color: black;
+        padding: 5px 10px;
+        text-decoration: none;
+        display: block;
+        font-size: 8px;;
+        }
+      
+      
+.qor {
+            width: 520px;
+            height: 200px;
+            margin-top: 0px;
+          }
+         h1 {
+           
+            font-size: 29px;
+            
+          }
+        
+         .ortasy{
+          margin:10px 20px 10px 70px;
+              display:flex;
+          }
+          #suret{
+              
+              border-radius:50%;
+              height: 120px;
+              width: 120px;
+              border-style: 3px white solid;
+              
+          }
+          .ekeu{
+              animation: glows 2s ease-in-out infinite alternate;
+              padding: 8px 19px 9px 19px;
+              
+          }
+          .word{
+            margin:30px 100px 20px 30px;
+            color:#212121;
+          padding: 30px;
+        padding-top: 8px;}
+            .word h2{
+            color:#1f7da8;
+            font-size:19px;
+            margin-left:40px;}
+        
+              #my {
+              
+                display:none;
+              }
+              #my1 {
+       
+                display:none;
+              }
+              #my2 {
+                
+                display:none;
+              }
+              
+              #my3{
+              
+                display:none;
+              }
+              #my4 {
+              
+                display:none;
+              }
+              #my5 {
+                
+                display:none;
+              }
+            .ast{
+              background-color:#1f7da8;
+              color:white;
+              font-size: 12px;
+              margin-top: 50px;
+            
+            }
+          }
+          @media (max-width: 670px){
+            .logo{
+              display: none;
+           }
+          
+           .mesto{
+             display:none;
+           }
+           ul {
+          padding-right:3px;
+          margin-bottom: 0px;;
+    
+          }
+          li {
+          float: left;
+          padding-right:3px;
+          }
+          
+          
+          li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 5px 4px;
+          text-decoration: none;
+          font-size:10px;
+          }
+          
+       
+          .nav{
+          margin-right:36px;
+          margin-left:36px;}
+          
+          .logolar{
+         display:none;
+          }
+        
+          .dropdown-content a {
+            color: black;
+            padding: 5px 7px;
+            text-decoration: none;
+            display: block;
+            font-size: 6px;;
+            }
+          
+          
+    .qor {
+                width: 370px;
+                height: 170px;
+                margin-top: 0px;
+              }
+             h1 {
+               
+                font-size: 20px;
+                
+              }
+              #hrv{
+                display:none;
+              }
+            
+             .ortasy{
+              margin:10px 10px 10px 50px;
+                 
+              }
+              #suret{
+                  
+                  border-radius:50%;
+                  height: 90px;
+                  width: 90px;
+                  border-style: 3px white solid;
+                  
+              }
+              .ekeu{
+                  animation: glows 2s ease-in-out infinite alternate;
+                  padding: 8px 14px 9px 14px;
+                  
+              }
+              .word{
+                margin:30px 100px 20px 30px;
+                color:#212121;
+              padding: 20px;
+            padding-top: 8px;}
+                .word h2{
+                color:#1f7da8;
+                font-size:15px;
+                margin-left:40px;}
+            
+                  #my {
+                  
+                    display:none;
+                  }
+                  #my1 {
+           
+                    display:none;
+                  }
+                  #my2 {
+                    
+                    display:none;
+                  }
+                  
+                  #my3{
+                  
+                    display:none;
+                  }
+                  #my4 {
+                  
+                    display:none;
+                  }
+                  #my5 {
+                    
+                    display:none;
+                  }
+                .ast{
+                  background-color:#1f7da8;
+                  color:white;
+                  font-size: 7px;
+                  margin-top: 30px;
+                
+                }
+              }
+            
+            
