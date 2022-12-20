@@ -1,55 +1,64 @@
-.logo{
-    position: relative;
-   float:left;
-   padding-left: 20px;
- }
- .basy{
-   background-color: rgb(2, 24, 47);
-   text-align: center;
-   color:white;
-   font-family: 'Aladin';font-size: 22px;
-   padding:10px;
- }
- .mesto{
-   color:white ;
-   font-family: 'Actor';
-   font-size: 16px;
-   float:center;
-   padding:50px 400px 0px 599px;
- }
- ul {
- list-style-type: none;
-padding-right:99px;
-margin-bottom: 0px;;
-overflow: hidden;
-background-color:#1f7da8;
+.logo {
+	position: relative;
+	float: left;
+	padding-left: 20px;
 }
+
+.basy {
+	background-color: rgb(2, 24, 47);
+	text-align: center;
+	color: white;
+	font-family: 'Aladin';
+	font-size: 22px;
+	padding: 10px;
+}
+
+.mesto {
+	color: white;
+	font-family: 'Actor';
+	font-size: 16px;
+	float: center;
+	padding: 50px 400px 0px 599px;
+}
+
+ul {
+	list-style-type: none;
+	padding-right: 99px;
+	margin-bottom: 0px;
+	;
+	overflow: hidden;
+	background-color: #1f7da8;
+}
+
 li {
-float: left;
-padding-right:35px;
+	float: left;
+	padding-right: 35px;
 }
 
 
 li a {
-display: block;
-color: white;
-text-align: center;
-padding: 16px 14px;
-text-decoration: none;
-font-size:28px;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px 14px;
+	text-decoration: none;
+	font-size: 28px;
 }
 
 li a:hover {
-background-color: rgb(2, 24, 47);;
+	background-color: rgb(2, 24, 47);
+	;
 }
-.nav{
-margin-right:140px;
-margin-left:140px;}
 
-.logolar{
-float:right;
-padding-right:40px;
-margin-top:-50px;
+.nav {
+	margin-right: 140px;
+	margin-left: 140px;
+}
+
+.logolar {
+	float: right;
+	padding-right: 40px;
+	margin-top: -50px;
 }
 
 .dropdown-content {
@@ -57,52 +66,78 @@ margin-top:-50px;
 	position: absolute;
 	background-color: #f9f9f9;
 	min-width: 140px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	z-index: 1;
-	}
-	
-	.dropdown-content a {
+}
+
+.dropdown-content a {
 	color: black;
 	padding: 5px 16px;
 	text-decoration: none;
 	display: block;
-	font-size: 15px;;
-	}
-	
-	.dropdown-content a:hover {background-color: #f1f1f1}
-	
-	.dropdown:hover .dropdown-content {
-	display: block;
-	}
-	
-.active {
-background-color:rgb(2, 24, 47);;
-color: white;
-border: none;
-cursor: pointer;
+	font-size: 15px;
+	;
 }
 
-body{
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.active {
+	background-color: rgb(2, 24, 47);
+	;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.intro{
+.intro {
 	width: 100%;
 	height: 580px;
 	background-image: url(background.jpg);
 }
-.video-serial{
+
+
+.button-serial {
+	border: none;
+	border-radius: 8px;
+	width: 90px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #e73a00;
+	margin: 10% 0 0 30%;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.button-serial:hover {
+	background-color: black;
+	color: white;
+}
+
+.video-serial {
 	display: none;
 }
-.intro-video{
+
+.intro-video {
 	width: 100%;
 	position: relative;
 	margin-left: 0;
 	margin-top: 0;
 }
+
 #slider {
 	/*положение слайдера*/
-	
+
 	text-align: center;
 	top: 10px;
 	margin: 0 auto;
@@ -137,9 +172,11 @@ article img {
 	/*размер изображений слайдера*/
 	width: 100%;
 }
- a{
+
+a {
 	text-decoration: none;
- }
+}
+
 #desktop:checked~#slider {
 	/*размер всего слайдера*/
 	max-width: 80%;
@@ -266,62 +303,72 @@ a {
 	/*прозрачность стрелок при отводе курсора*/
 	transition: opacity 0.2s ease-out;
 }
-.events-and-calendar{
+
+.events-and-calendar {
 	width: 80%;
 	display: block;
 	margin-left: 10%;
 	margin-top: 10px;
 }
-.events{
-width: 70%;
-float: left;
+
+.events {
+	width: 70%;
+	float: left;
 }
-.calendar{
+
+.calendar {
 	width: 28%;
 	display: block;
 	float: right;
 	padding: 0;
 	margin: 0;
 }
-.h2-in-events{
+
+.h2-in-events {
 	width: 100%;
 	text-align: left;
 	line-height: 1.5;
 	border-bottom: gray 1px solid;
-	color:rgb(160, 23, 23);
+	color: rgb(160, 23, 23);
 	text-transform: uppercase;
 }
-.h2-in-calendar{
+
+.h2-in-calendar {
 	width: 100%;
 	text-align: center;
 	line-height: 1.5;
 	border-bottom: gray 1px solid;
-	color:rgb(160, 23, 23)
+	color: rgb(160, 23, 23)
 }
-.numbers-and-title-event{
+
+.numbers-and-title-event {
 	display: flex;
 	width: 100%;
 	padding-bottom: 5%;
 }
-.numbers{
+
+.numbers {
 	border-bottom: brown solid;
 	width: 40%;
 	text-align: center;
 	line-height: 1.5;
 }
-.h3-in-calendar{
+
+.h3-in-calendar {
 	margin: 0;
 	padding: 0;
 	font-size: 30px;
 	color: rgb(160, 23, 23);
 }
-.p-in-calendar{
+
+.p-in-calendar {
 	margin: 0;
 	padding: 0;
 	font-size: 20px;
-	
+
 }
-.title-event{	
+
+.title-event {
 	width: 60%;
 	text-align: center;
 	color: rgb(0, 0, 85);

@@ -1,4 +1,4 @@
-DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,14 +8,16 @@ DOCTYPE html>
     <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
-    <title>Faculty of Education & Humanities</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="homepage.js"></script>
+    <title>Homepage</title>
 </head>
 <body>
     <div class="header">
         <div class="basy">Social life of Suleyman Demirel University</div>
-       <div class="logo"> <img src="sdulife.png" height="120px" width="110px"></div>
-       <div class="mesto"><img src="locfinal.png" height="20px" width="20px"> Almaty,region Karasay,city Kaskelen</div>
-       <div class="logolar">
+        <div class="logo"> <img src="sdulife.png" height="120px" width="110px"></div>
+        <div class="mesto"><img src="locfinal.png" height="20px" width="20px"> Almaty,region Karasay,city Kaskelen</div>
+        <div class="logolar">
         <a href="https://instagram.com/sdulife?igshid=YmMyMTA2M2Y="> <img src="instafinal.png" height="20px" width="20px"><br></a>
         <a href="https://youtube.com/@suleymandemireluniversity1085"><img src="youtubelogo.png" height="20px" width="20px"><br></a> 
         <a href="https://taplink.cc/sdulife?fbclid=PAAab77WkRZ35-3VVx8F704CizUQMlPL7-sMVX_xTBjSXW2q8wC4z5kgyo1ew"><img src="tab.png" height="20px" width="20px"></a>
@@ -38,13 +40,12 @@ DOCTYPE html>
         <li><a href="#about">Contact</a></li>
         </ul></div>
 
-    <script>
-        function serial(){document.getElementById("video").style.display = "flex";}
-    </script>
+    
 
     <div id="intro" class="intro">
-        <input type="button" value="Serial" onclick="serial()">
-        <div class="video-serial" id="video">
+        
+        <input type="button" value="Serial" onclick="serial()" class="button-serial" id="btn-serial">
+        <div class="video-serial" id="video-serial">
             <iframe class="intro-video" width="560" height="315" src="https://www.youtube.com/embed/D6lofvhtoMI" title="YouTube video player"
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></div>
