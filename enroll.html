@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enroll</title>
     <link rel="stylesheet" href="enroll.css">
+    <link rel="stylesheet" href="connect.php">
 </head>
 
 <body>
@@ -14,18 +15,23 @@
         <h1>Enroll in a club</h1>
         <p>Fill in the following fields</p>
         <div class="login-form">
-            <form action="connect" method="post">
+            <form action="connect.php" method="post">
                 <label for="id">ID</label>
                 <input type="text" id="id" name="id">
+                
                 <label for="firstName">First name</label>
                 <input type="text" id="firstname" name="fistname">
+                
                 <label for="lastname">Last Name</label>
-                <input type="email" id="lastname" name="lastname">
+                <input type="text" id="lastname" name="lastname">
+                
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email">
+                <input type="email" id="email" name="email">
+                
                 <label for="phonenumber">Phone number</label>
-                <input type="tel" name="tel" id="tel">
-                <label for="select">Select a club</label>
+                <input type="phonenumber" name="phonenumber" id="phonenumber">
+                
+                <label for="selectclub">Select a club</label>
                 <select name="selectclub" id="selectclub">
                     <option value="">Sport Club</option>
                     <option value="">Motion Club</option>
@@ -52,7 +58,8 @@
                     <option value="">UNESCO Club</option>
                     <option value="">Book Club</option>
                 </select>
-                <input type="button" value="Submit">
+                
+                <input type="submit" value="Submit" >
             </form>
         </div>
     </div>
