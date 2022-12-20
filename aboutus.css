@@ -1,0 +1,85 @@
+.logo{
+    position: relative;
+   float:left;
+   padding-left: 20px;
+ }
+ .basy{
+   background-color: rgb(2, 24, 47);#;
+   text-align: center;
+   color:white;
+   font-family: 'Aladin';font-size: 22px;
+   padding:10px;
+ }
+ .mesto{
+   color:white ;
+   font-family: 'Actor';
+   font-size: 16px;
+   float:center;
+   padding:50px 400px 0px 599px;
+ }
+ ul {
+ list-style-type: none;
+padding-right:99px;
+margin-bottom: 0px;;
+overflow: hidden;
+background-color:#1f7da8;
+}
+li {
+float: left;
+padding-right:35px;
+}
+
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 16px 14px;
+text-decoration: none;
+font-size:28px;
+}
+
+li a:hover {
+background-color: rgb(2, 24, 47);;
+}
+.nav{
+margin-right:140px;
+margin-left:140px;}
+
+.logolar{
+float:right;
+padding-right:40px;
+margin-top:-50px;
+}
+.active {
+    background-color:rgb(2, 24, 47);;
+    color: white;
+    border: none;
+    cursor: pointer;
+    }
+    
+    
+    
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+    
+    .dropdown-content a {
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;;
+    }
+    
+    .dropdown-content a:hover {background-color: #f1f1f1}
+    
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+    
